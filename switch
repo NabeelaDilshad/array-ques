@@ -1,0 +1,22 @@
+// switch defination..... used to select one of many of blocks of code to be executed
+// switch(expression){
+     // case:code;
+     // brea;
+     // default;
+     // }
+
+
+switch(arr.length){
+             case 1: {
+                  str = arr[0] +" are online";
+                  break;
+             }
+             case 2 :{
+                  str = arr[0] +" and "+ arr[1] +" are online";
+                  break;
+             } 
+             default: {
+                  str = arr[0] + " and "+ arr[1] +" and more "  + (arr.length -2)+ " are online ";
+             }
+      };
+      console.log(str);
