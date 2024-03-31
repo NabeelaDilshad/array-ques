@@ -1,7 +1,7 @@
 
 // object store data in key and value pairs
 // var a = {};
-  
+
 // var a = {
 //      fullname :"nabeela dilshad ",
 //      age :23,
@@ -69,25 +69,35 @@
 
 
 var userlist = [
-    { username:"mack", age:23},
-    { username:"jack", age: 25},
-    { username: "abdul", age:30},
-    { username : "sam", age:35}
+  { username: "mack", age: 23 },
+  { username: "jack", age: 25 },
+  { username: "abdul", age: 30 },
+  { username: "sam", age: 35 }
 ];
-  
+
 // PUSH THE ELEMENT WHICH HAS AGE GREATER THAN 25
-let  Ages= [];
-for(var i = 0; i < userlist.length; i++){
-      if(userlist[i].age > 25){
-        Ages.push(userlist[i]);
-      }
+let Ages = [];
+for (var i = 0; i < userlist.length; i++) {
+  if (userlist[i].age > 25) {
+    Ages.push(userlist[i]);
+  }
 };
-console.log(Ages);
+// console.log(Ages);
 
 
 
-  // const filterarray =  userlist.filter( item => item.age > 25 );
-  // console.log(filterarray);
+// const filterarray =  userlist.filter( item => item.age > 25 );
+// console.log(filterarray);
 
-  // const maparray =  userlist.map( item => item.age > 25 );
-  // console.
+// const maparray =  userlist.map( item => item.age > 25 );
+// console.
+
+var a = {
+  fullname: "nabeela dilshad ",
+  age: 23,
+  address: "aligarh",
+  mobilenumber: 376253647532
+};
+
+console.log(Object.keys(a))
+
